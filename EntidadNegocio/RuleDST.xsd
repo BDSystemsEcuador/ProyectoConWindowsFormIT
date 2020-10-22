@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RuleDST" targetNamespace="http://tempuri.org/RuleDST.xsd" xmlns:mstns="http://tempuri.org/RuleDST.xsd" xmlns="http://tempuri.org/RuleDST.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RuleDST" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RuleDST" msprop:Generator_UserDSName="RuleDST">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EF_RULE" msprop:Generator_TableClassName="EF_RULEDataTable" msprop:Generator_TableVarName="tableEF_RULE" msprop:Generator_TablePropName="EF_RULE" msprop:Generator_RowDeletingName="EF_RULERowDeleting" msprop:Generator_RowChangingName="EF_RULERowChanging" msprop:Generator_RowEvHandlerName="EF_RULERowChangeEventHandler" msprop:Generator_RowDeletedName="EF_RULERowDeleted" msprop:Generator_UserTableName="EF_RULE" msprop:Generator_RowChangedName="EF_RULERowChanged" msprop:Generator_RowEvArgName="EF_RULERowChangeEvent" msprop:Generator_RowClassName="EF_RULERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RULE_ID" msprop:Generator_ColumnVarNameInTable="columnRULE_ID" msprop:Generator_ColumnPropNameInRow="RULE_ID" msprop:Generator_ColumnPropNameInTable="RULE_IDColumn" msprop:Generator_UserColumnName="RULE_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="RULE_FLOW" msprop:Generator_ColumnVarNameInTable="columnRULE_FLOW" msprop:Generator_ColumnPropNameInRow="RULE_FLOW" msprop:Generator_ColumnPropNameInTable="RULE_FLOWColumn" msprop:Generator_UserColumnName="RULE_FLOW" type="xs:int" minOccurs="0" />
+              <xs:element name="RULE_NAME" msprop:Generator_ColumnVarNameInTable="columnRULE_NAME" msprop:Generator_ColumnPropNameInRow="RULE_NAME" msprop:Generator_ColumnPropNameInTable="RULE_NAMEColumn" msprop:Generator_UserColumnName="RULE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="RULE_DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnRULE_DESCRIPTION" msprop:Generator_ColumnPropNameInRow="RULE_DESCRIPTION" msprop:Generator_ColumnPropNameInTable="RULE_DESCRIPTIONColumn" msprop:Generator_UserColumnName="RULE_DESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="RULE_TYPE" msprop:Generator_ColumnVarNameInTable="columnRULE_TYPE" msprop:Generator_ColumnPropNameInRow="RULE_TYPE" msprop:Generator_ColumnPropNameInTable="RULE_TYPEColumn" msprop:Generator_UserColumnName="RULE_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="RULE_MESSAGE" msprop:Generator_ColumnVarNameInTable="columnRULE_MESSAGE" msprop:Generator_ColumnPropNameInRow="RULE_MESSAGE" msprop:Generator_ColumnPropNameInTable="RULE_MESSAGEColumn" msprop:Generator_UserColumnName="RULE_MESSAGE" type="xs:string" minOccurs="0" />
+              <xs:element name="RULE_DEFAULT_FLOW" msprop:Generator_ColumnVarNameInTable="columnRULE_DEFAULT_FLOW" msprop:Generator_ColumnPropNameInRow="RULE_DEFAULT_FLOW" msprop:Generator_ColumnPropNameInTable="RULE_DEFAULT_FLOWColumn" msprop:Generator_UserColumnName="RULE_DEFAULT_FLOW" type="xs:int" minOccurs="0" />
+              <xs:element name="RULE_DEFAULT_STEP" msprop:Generator_ColumnVarNameInTable="columnRULE_DEFAULT_STEP" msprop:Generator_ColumnPropNameInRow="RULE_DEFAULT_STEP" msprop:Generator_ColumnPropNameInTable="RULE_DEFAULT_STEPColumn" msprop:Generator_UserColumnName="RULE_DEFAULT_STEP" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

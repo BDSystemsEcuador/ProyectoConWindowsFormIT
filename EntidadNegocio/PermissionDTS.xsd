@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PermissionDTS" targetNamespace="http://tempuri.org/PermissionDTS.xsd" xmlns:mstns="http://tempuri.org/PermissionDTS.xsd" xmlns="http://tempuri.org/PermissionDTS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PermissionDTS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PermissionDTS" msprop:Generator_UserDSName="PermissionDTS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EF_PERMISSION" msprop:Generator_TableClassName="EF_PERMISSIONDataTable" msprop:Generator_TableVarName="tableEF_PERMISSION" msprop:Generator_TablePropName="EF_PERMISSION" msprop:Generator_RowDeletingName="EF_PERMISSIONRowDeleting" msprop:Generator_RowChangingName="EF_PERMISSIONRowChanging" msprop:Generator_RowEvHandlerName="EF_PERMISSIONRowChangeEventHandler" msprop:Generator_RowDeletedName="EF_PERMISSIONRowDeleted" msprop:Generator_UserTableName="EF_PERMISSION" msprop:Generator_RowChangedName="EF_PERMISSIONRowChanged" msprop:Generator_RowEvArgName="EF_PERMISSIONRowChangeEvent" msprop:Generator_RowClassName="EF_PERMISSIONRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PERMISSION_ID" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_ID" msprop:Generator_ColumnPropNameInRow="PERMISSION_ID" msprop:Generator_ColumnPropNameInTable="PERMISSION_IDColumn" msprop:Generator_UserColumnName="PERMISSION_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="PERMISSION_FLOW" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_FLOW" msprop:Generator_ColumnPropNameInRow="PERMISSION_FLOW" msprop:Generator_ColumnPropNameInTable="PERMISSION_FLOWColumn" msprop:Generator_UserColumnName="PERMISSION_FLOW" type="xs:int" minOccurs="0" />
+              <xs:element name="PERMISSION_TYPE" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_TYPE" msprop:Generator_ColumnPropNameInRow="PERMISSION_TYPE" msprop:Generator_ColumnPropNameInTable="PERMISSION_TYPEColumn" msprop:Generator_UserColumnName="PERMISSION_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="PERMISSION_VALUE" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_VALUE" msprop:Generator_ColumnPropNameInRow="PERMISSION_VALUE" msprop:Generator_ColumnPropNameInTable="PERMISSION_VALUEColumn" msprop:Generator_UserColumnName="PERMISSION_VALUE" type="xs:string" minOccurs="0" />
+              <xs:element name="PERMISSION_ADMINISTRATOR" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_ADMINISTRATOR" msprop:Generator_ColumnPropNameInRow="PERMISSION_ADMINISTRATOR" msprop:Generator_ColumnPropNameInTable="PERMISSION_ADMINISTRATORColumn" msprop:Generator_UserColumnName="PERMISSION_ADMINISTRATOR" type="xs:int" minOccurs="0" />
+              <xs:element name="PERMISSION_NEW_REQUEST" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_NEW_REQUEST" msprop:Generator_ColumnPropNameInRow="PERMISSION_NEW_REQUEST" msprop:Generator_ColumnPropNameInTable="PERMISSION_NEW_REQUESTColumn" msprop:Generator_UserColumnName="PERMISSION_NEW_REQUEST" type="xs:int" minOccurs="0" />
+              <xs:element name="PERMISSION_PUBLISH_REPORTS" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_PUBLISH_REPORTS" msprop:Generator_ColumnPropNameInRow="PERMISSION_PUBLISH_REPORTS" msprop:Generator_ColumnPropNameInTable="PERMISSION_PUBLISH_REPORTSColumn" msprop:Generator_UserColumnName="PERMISSION_PUBLISH_REPORTS" type="xs:int" minOccurs="0" />
+              <xs:element name="PERMISSION_VIEW_INDICATORS" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_VIEW_INDICATORS" msprop:Generator_ColumnPropNameInRow="PERMISSION_VIEW_INDICATORS" msprop:Generator_ColumnPropNameInTable="PERMISSION_VIEW_INDICATORSColumn" msprop:Generator_UserColumnName="PERMISSION_VIEW_INDICATORS" type="xs:int" minOccurs="0" />
+              <xs:element name="PERMISSION_SEARCH" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_SEARCH" msprop:Generator_ColumnPropNameInRow="PERMISSION_SEARCH" msprop:Generator_ColumnPropNameInTable="PERMISSION_SEARCHColumn" msprop:Generator_UserColumnName="PERMISSION_SEARCH" type="xs:string" minOccurs="0" />
+              <xs:element name="PERMISSION_FILETYPES" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_FILETYPES" msprop:Generator_ColumnPropNameInRow="PERMISSION_FILETYPES" msprop:Generator_ColumnPropNameInTable="PERMISSION_FILETYPESColumn" msprop:Generator_UserColumnName="PERMISSION_FILETYPES" type="xs:string" minOccurs="0" />
+              <xs:element name="PERMISSION_REPORTS" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_REPORTS" msprop:Generator_ColumnPropNameInRow="PERMISSION_REPORTS" msprop:Generator_ColumnPropNameInTable="PERMISSION_REPORTSColumn" msprop:Generator_UserColumnName="PERMISSION_REPORTS" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

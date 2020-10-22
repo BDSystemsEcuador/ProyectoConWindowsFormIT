@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TaskDST" targetNamespace="http://tempuri.org/TaskDST.xsd" xmlns:mstns="http://tempuri.org/TaskDST.xsd" xmlns="http://tempuri.org/TaskDST.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TaskDST" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TaskDST" msprop:Generator_UserDSName="TaskDST">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EF_TASK" msprop:Generator_TableClassName="EF_TASKDataTable" msprop:Generator_TableVarName="tableEF_TASK" msprop:Generator_RowChangedName="EF_TASKRowChanged" msprop:Generator_TablePropName="EF_TASK" msprop:Generator_RowDeletingName="EF_TASKRowDeleting" msprop:Generator_RowChangingName="EF_TASKRowChanging" msprop:Generator_RowEvHandlerName="EF_TASKRowChangeEventHandler" msprop:Generator_RowDeletedName="EF_TASKRowDeleted" msprop:Generator_RowClassName="EF_TASKRow" msprop:Generator_UserTableName="EF_TASK" msprop:Generator_RowEvArgName="EF_TASKRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TASK_ID" msprop:Generator_ColumnVarNameInTable="columnTASK_ID" msprop:Generator_ColumnPropNameInRow="TASK_ID" msprop:Generator_ColumnPropNameInTable="TASK_IDColumn" msprop:Generator_UserColumnName="TASK_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="TASK_REQUEST" msprop:Generator_ColumnVarNameInTable="columnTASK_REQUEST" msprop:Generator_ColumnPropNameInRow="TASK_REQUEST" msprop:Generator_ColumnPropNameInTable="TASK_REQUESTColumn" msprop:Generator_UserColumnName="TASK_REQUEST" type="xs:int" minOccurs="0" />
+              <xs:element name="TASK_FLOW" msprop:Generator_ColumnVarNameInTable="columnTASK_FLOW" msprop:Generator_ColumnPropNameInRow="TASK_FLOW" msprop:Generator_ColumnPropNameInTable="TASK_FLOWColumn" msprop:Generator_UserColumnName="TASK_FLOW" type="xs:int" minOccurs="0" />
+              <xs:element name="TASK_STEP" msprop:Generator_ColumnVarNameInTable="columnTASK_STEP" msprop:Generator_ColumnPropNameInRow="TASK_STEP" msprop:Generator_ColumnPropNameInTable="TASK_STEPColumn" msprop:Generator_UserColumnName="TASK_STEP" type="xs:int" minOccurs="0" />
+              <xs:element name="TASK_SEQ" msprop:Generator_ColumnVarNameInTable="columnTASK_SEQ" msprop:Generator_ColumnPropNameInRow="TASK_SEQ" msprop:Generator_ColumnPropNameInTable="TASK_SEQColumn" msprop:Generator_UserColumnName="TASK_SEQ" type="xs:int" minOccurs="0" />
+              <xs:element name="TASK_ASSIGNEDTO" msprop:Generator_ColumnVarNameInTable="columnTASK_ASSIGNEDTO" msprop:Generator_ColumnPropNameInRow="TASK_ASSIGNEDTO" msprop:Generator_ColumnPropNameInTable="TASK_ASSIGNEDTOColumn" msprop:Generator_UserColumnName="TASK_ASSIGNEDTO" type="xs:string" minOccurs="0" />
+              <xs:element name="TASK_STATUS" msprop:Generator_ColumnVarNameInTable="columnTASK_STATUS" msprop:Generator_ColumnPropNameInRow="TASK_STATUS" msprop:Generator_ColumnPropNameInTable="TASK_STATUSColumn" msprop:Generator_UserColumnName="TASK_STATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="TASK_SPLIT_GROUP" msprop:Generator_ColumnVarNameInTable="columnTASK_SPLIT_GROUP" msprop:Generator_ColumnPropNameInRow="TASK_SPLIT_GROUP" msprop:Generator_ColumnPropNameInTable="TASK_SPLIT_GROUPColumn" msprop:Generator_UserColumnName="TASK_SPLIT_GROUP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

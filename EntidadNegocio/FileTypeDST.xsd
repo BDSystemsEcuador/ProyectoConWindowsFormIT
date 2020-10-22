@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FileTypeDST" targetNamespace="http://tempuri.org/FileTypeDST.xsd" xmlns:mstns="http://tempuri.org/FileTypeDST.xsd" xmlns="http://tempuri.org/FileTypeDST.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FileTypeDST" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="FileTypeDST" msprop:Generator_UserDSName="FileTypeDST">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EF_FILETYPE" msprop:Generator_TableClassName="EF_FILETYPEDataTable" msprop:Generator_TableVarName="tableEF_FILETYPE" msprop:Generator_TablePropName="EF_FILETYPE" msprop:Generator_RowDeletingName="EF_FILETYPERowDeleting" msprop:Generator_RowChangingName="EF_FILETYPERowChanging" msprop:Generator_RowEvHandlerName="EF_FILETYPERowChangeEventHandler" msprop:Generator_RowDeletedName="EF_FILETYPERowDeleted" msprop:Generator_UserTableName="EF_FILETYPE" msprop:Generator_RowChangedName="EF_FILETYPERowChanged" msprop:Generator_RowEvArgName="EF_FILETYPERowChangeEvent" msprop:Generator_RowClassName="EF_FILETYPERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FILETYPE_ID" msprop:Generator_ColumnVarNameInTable="columnFILETYPE_ID" msprop:Generator_ColumnPropNameInRow="FILETYPE_ID" msprop:Generator_ColumnPropNameInTable="FILETYPE_IDColumn" msprop:Generator_UserColumnName="FILETYPE_ID" type="xs:int" />
+              <xs:element name="FILETYPE_NAME" msprop:Generator_ColumnVarNameInTable="columnFILETYPE_NAME" msprop:Generator_ColumnPropNameInRow="FILETYPE_NAME" msprop:Generator_ColumnPropNameInTable="FILETYPE_NAMEColumn" msprop:Generator_UserColumnName="FILETYPE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="FILETYPE_DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnFILETYPE_DESCRIPTION" msprop:Generator_ColumnPropNameInRow="FILETYPE_DESCRIPTION" msprop:Generator_ColumnPropNameInTable="FILETYPE_DESCRIPTIONColumn" msprop:Generator_UserColumnName="FILETYPE_DESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="FILETYPE_TYPES" msprop:Generator_ColumnVarNameInTable="columnFILETYPE_TYPES" msprop:Generator_ColumnPropNameInRow="FILETYPE_TYPES" msprop:Generator_ColumnPropNameInTable="FILETYPE_TYPESColumn" msprop:Generator_UserColumnName="FILETYPE_TYPES" type="xs:string" minOccurs="0" />
+              <xs:element name="FILETYPE_FLOW" msprop:Generator_ColumnVarNameInTable="columnFILETYPE_FLOW" msprop:Generator_ColumnPropNameInRow="FILETYPE_FLOW" msprop:Generator_ColumnPropNameInTable="FILETYPE_FLOWColumn" msprop:Generator_UserColumnName="FILETYPE_FLOW" type="xs:int" minOccurs="0" />
+              <xs:element name="FILETYPE_CATEGORY" msprop:Generator_ColumnVarNameInTable="columnFILETYPE_CATEGORY" msprop:Generator_ColumnPropNameInRow="FILETYPE_CATEGORY" msprop:Generator_ColumnPropNameInTable="FILETYPE_CATEGORYColumn" msprop:Generator_UserColumnName="FILETYPE_CATEGORY" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EF_FILETYPE" />
+      <xs:field xpath="mstns:FILETYPE_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

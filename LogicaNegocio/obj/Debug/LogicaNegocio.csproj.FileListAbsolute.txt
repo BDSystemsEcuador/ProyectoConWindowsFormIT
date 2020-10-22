@@ -1,0 +1,2 @@
+C:\Users\Administrador\source\repos\ProyectoPHP\LogicaNegocio\obj\Debug\LogicaNegocio.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\ProyectoPHP\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache

@@ -1,0 +1,7 @@
+C:\Users\Administrador\source\repos\ProyectoPHP\WcfSFileType\bin\WcfSFileType.dll.config
+C:\Users\Administrador\source\repos\ProyectoPHP\WcfSFileType\bin\WcfSFileType.dll
+C:\Users\Administrador\source\repos\ProyectoPHP\WcfSFileType\bin\WcfSFileType.pdb
+C:\Users\Administrador\source\repos\ProyectoPHP\WcfSFileType\obj\Debug\WcfSFileType.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\ProyectoPHP\WcfSFileType\obj\Debug\WcfSFileType.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\ProyectoPHP\WcfSFileType\obj\Debug\WcfSFileType.dll
+C:\Users\Administrador\source\repos\ProyectoPHP\WcfSFileType\obj\Debug\WcfSFileType.pdb

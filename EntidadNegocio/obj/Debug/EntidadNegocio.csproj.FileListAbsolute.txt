@@ -1,0 +1,6 @@
+C:\Users\Administrador\source\repos\ProyectoPHP\EntidadNegocio\bin\Debug\EntidadNegocio.dll
+C:\Users\Administrador\source\repos\ProyectoPHP\EntidadNegocio\bin\Debug\EntidadNegocio.pdb
+C:\Users\Administrador\source\repos\ProyectoPHP\EntidadNegocio\obj\Debug\EntidadNegocio.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\ProyectoPHP\EntidadNegocio\obj\Debug\EntidadNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\ProyectoPHP\EntidadNegocio\obj\Debug\EntidadNegocio.dll
+C:\Users\Administrador\source\repos\ProyectoPHP\EntidadNegocio\obj\Debug\EntidadNegocio.pdb
